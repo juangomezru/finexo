@@ -16,8 +16,8 @@ jobs:
         name: Build & push Docker image
         with:
           image: juangomezru/finexo
-          tags: latest
-          registry: docker.io
-          dockerfile: Dockerfile
-          username: ${{ secrets.SUPER_USUARIO }}
-          password: ${{ secrets.CLAVE }}
+          tags : latest
+          registry : docker.io
+          dockerfile : Dockerfile
+          username : ${{ secrets.SUPER_USUARIO }}
+          password : ${{ secrets.CLAVE }}
